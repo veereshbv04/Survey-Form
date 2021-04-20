@@ -4,9 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
     <title>Survey Form</title>
 </head>
 <body>
-    
+    <div class ="container">
+        <header>
+            <hi> FreeCodeCamp Survey Form</hi>
+            <p> Thank You For Taking Time to improve our Platform </p>
+        </header>
+        <form id="survey-form">
+            <div>
+                <label for="name">Name</label>
+                <input id="name" type="text" name="Name" required>
+            </div>
+            
+            <div>
+                <label for ="email">Email</label>
+                <input id="email" type="text" name="Email" required>
+            </div>
+            <div>
+                <label for="age">Age(Optional)</label>
+                <input id="age" type="number" name="Age(Optional)">
+            </div>
+            <div>
+                <label for="describe-role">"Which option best decribes your current role"</label>
+                <input id="describe-role" type="text" name="Which option best decribes your current role">
+            </div>
+            <div>
+                <fieldset>
+                    <l>Would you recommend freecodecamp to a friend ?</legend>
+                    <input id="recommend" type="radio" name="Definitely" value="definitely">
+                    <input id="recommend" type="radio" name="Maybe" value="maybe">
+                    <input id="recommend" type="radio" value="not sure">
+                </fieldset>
+            </div>
+        </form>
+
+    </div>
+
 </body>
 </html>
