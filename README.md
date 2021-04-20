@@ -1,0 +1,2 @@
+# Survey-Form
+A survey is a research method used for collecting data from a predefined group of respondents to gain information and insights into various topics of interest. They can have multiple purposes, and researchers can conduct it in many ways depending on the methodology chosen and the study’s goal.                                             Here, I have built a Survey Form using HTML and CSS .
