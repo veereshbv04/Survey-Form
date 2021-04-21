@@ -33,6 +33,24 @@ header p{
    
 }
 
+.form-div{
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+}
+
+label {
+    display: flex;
+    align-items:center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+}
+
+
+.form-control{
+    display: block;
+    width: 100%;
+}
+
 button{
     max-width: 500px;
     border-color: orangered;
