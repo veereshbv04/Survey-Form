@@ -16,10 +16,15 @@ body {
     line-height: 1.4;
 }
 
-container{
+/* container{
     box-shadow: ;
-}
+} */
 
+@media (max-height){
+    div{
+        font-size: x-small;
+    }
+}
 
 form{
     max-width:500px;
