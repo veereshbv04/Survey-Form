@@ -2,10 +2,11 @@
 
 
 :root{
-    --background-color:rgb(226, 179, 78);
-    --form-color:rgb(4, 106, 240);
-    --button-color:rgb(250, 121, 15);
+    --background-color:rgb(12, 9, 41);
+    --form-color:rgb(133, 173, 226);
+    --button-color:rgb(24, 10, 41);
 }
+
 
 body {
     background-color: var(--background-color);
@@ -15,6 +16,11 @@ body {
     line-height: 1.4;
 }
 
+container{
+    box-shadow: ;
+}
+
+
 form{
     max-width:500px;
     margin: auto;
@@ -23,6 +29,7 @@ form{
     /* border-radius: 0.25rem; */
     border-top-right-radius: 5rem;
     border-bottom-left-radius: 5rem;
+    box-shadow: 20px 20px 25px wheat;
 }
 
 header{
@@ -43,6 +50,9 @@ header p{
     padding: 1.5rem;
     
 }
+
+
+
 
 .input-checkbox{
     display: inline-flex;
@@ -89,6 +99,9 @@ p{
     border: 1px solid #ced4da;
     border-radius: 0.25rem;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    border-width: medium;
+    border-color: rgb(12, 9, 41);
+    
 }
 
 .input-textarea{
@@ -104,12 +117,20 @@ button{
     border-radius: 2rem;
     border-width: .25rem;
     margin: auto;
-    background-color: var(--button-color);
-    color: whitesmoke;
+    background-color: whitesmoke;
+    color: rgb(11, 5, 51);
     padding-left: 50%;
     padding-right: 50%;
     padding-top: 2.5%;
     padding-bottom: 2.5%;
     align-content:center;
+    font-size:x-large;
+    
  
+}
+
+button:hover{
+
+    background-color: rgb(11, 5, 51);
+    color: whitesmoke;
 }
