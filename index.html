@@ -1,53 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles.css" rel="stylesheet">
     <title>Survey Form</title>
+    
 </head>
+
 <body>
-    <div class ="container">
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <div class="container">
         <header>
-            <hi> FreeCodeCamp Survey Form</hi>
-            <p> Thank You For Taking Time to improve our Platform </p>
+            <h1 id="title"> FreeCodeCamp Survey Form</h1>
+            <p id="description"> Thank You For Taking Time to improve our Platform </p>
         </header>
         <form id="survey-form">
             <div>
-                <label for="name">Name</label>
-                <input id="name" type="text" name="Name" required>
+                <label id="name-label" for="name">Name</label>
+                <input id="name" type="text" name="Name" placeholder="Enter your Name" required>
             </div>
-            
+
             <div>
-                <label for ="email">Email</label>
-                <input id="email" type="text" name="Email" required>
+                <!-- Email validation required -->
+                <label id="email-label" for="email">Email</label>
+                <input id="email" type="email" name="Email" placeholder="Enter your mail-id" required>
             </div>
             <div>
-                <label for="age">Age(Optional)</label>
-                <input id="age" type="number" name="Age(Optional)">
+                <label id="number-label" for="age">Age(Optional)</label>
+                <input id="number" type="number" name="Age(Optional)" placeholder="Enter your age"
+                 min="10" max="150" >
             </div>
             <div>
                 <label for="describe-role">"Which option best decribes your current role" </label>
                 <input id="describe-role" type="text" name="Which option best decribes your current role" required>
             </div>
             <div>
-                
+
                 <p>Would you recommend FreeCodeCamp to your Friend</p>
                 <legend>
-                    <input type="radio" value="definitely" checked>
+                    <input type="radio" value="definitely" checked name="recommend">
                     Definitly
                 </legend>
                 <legend>
-                    <input type="radio" value="maybe">
+                    <input type="radio" value="maybe" name="recommend">
                     Maybe
                 </legend>
                 <legend>
-                    <input type="radio" value="not sure">
+                    <input type="radio" value="not sure" name="recommend">
                     Not sure
                 </legend>
             </div>
             <div>
+                <!-- Drop down -->
                 <label for="feature">What is your favorite feature of FreeCodeCamp ?</label>
                 <input id="feature" type="text" name="feaute">
             </div>
@@ -73,10 +80,11 @@
                 <p>Any Comments or Suggestions ?</p>
                 <input id="comments" type="text" name="comments">
             </div>
-            <button id="button">Submit</button>
+            <button id="submit">Submit</button>
         </form>
 
     </div>
 
 </body>
+
 </html>
