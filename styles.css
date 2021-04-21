@@ -38,6 +38,10 @@ header p{
     padding: 0.25rem;
 }
 
+.input-checkbox{
+    display: inline-flex;
+}
+
 label {
     display: flex;
     align-items:center;
@@ -45,6 +49,9 @@ label {
     margin-bottom: 0.5rem;
 }
 
+.inline{
+    display: inline;
+}
 
 .form-control{
     display: block;

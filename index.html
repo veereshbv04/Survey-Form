@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles.css" rel="stylesheet">
     <title>Survey Form</title>
-    
+
 </head>
 
 <body>
@@ -26,16 +26,18 @@
             <div class="form-div">
                 <!--To take email the "type" of input tag should be "email" -->
                 <label id="email-label" for="email">Email</label>
-                <input id="email" type="email" name="Email" class="form-control" placeholder="Enter your mail-id" required>
+                <input id="email" type="email" name="Email" class="form-control" placeholder="Enter your mail-id"
+                    required>
             </div>
             <div class="form-div">
                 <label id="number-label" for="age">Age(Optional)</label>
                 <input id="number" type="number" name="Age(Optional)" class="form-control" placeholder="Enter your age"
-                 min="10" max="150" >
+                    min="10" max="150">
             </div>
             <div class="form-div">
                 <label id="describe" for="describe-role">"Which option best decribes your current role" </label>
-                <input id="describe-role" type="text" name="Which option best decribes your current role" class="form-control" required>
+                <input id="describe-role" type="text" name="Which option best decribes your current role"
+                    class="form-control" required>
             </div>
             <div class="form-div">
 
@@ -56,30 +58,45 @@
             <div class="form-div">
                 <!-- Drop down -->
                 <label for="feature">What is your favorite feature of FreeCodeCamp ?</label>
-                <select id="dropdown" class="form-control" >
+                <select id="dropdown" class="form-control">
                     <option disabled selected value> Select from the below options</option>
                     <option value="challenges">challenges</option>
-                    <option value ="projects">Projects</option>
+                    <option value="projects">Projects</option>
                     <option value="Structure of the Course">Structure of the Course</option>
                 </select>
             </div>
             <div class="form-div">
                 <p>What Would you like to see improved ?</p>
 
-                <input id="improve" type="checkbox" value="front-end">
-                <label for="improve"> Front-end Projects</label>
 
-                <input id="improve" type="checkbox" value="back-end">
-                <label for="improve">Back-end Projects</label>
+                <label>
+                    <input class="input-checkbox" type="checkbox" value="front-end">
+                    Front-end Projects
+                </label>
 
-                <input id="improve" type="checkbox" value="data-visualization">
-                <label for="improve">Data Visualization</label>
 
-                <input id="improve" type="checkbox" value="challenges">
-                <label for="improve">challenges</label>
+                <label>
+                    <input class="input-checkbox" type="checkbox" value="back-end">
+                    Back-end Projects
+                </label>
 
-                <input id="improve" type="checkbox" value="forum">
-                <label for="improve">Forum</label>
+
+                <label>
+                    <input class="input-checkbox" type="checkbox" value="data-visualization">
+                    Data Visualization
+                </label>
+
+
+                <label>
+                    <input class="input-checkbox" type="checkbox" value="challenges">
+                    challenges
+                </label>
+
+
+                <label>
+                    <input class="input-checkbox" type="checkbox" value="forum">
+                    Forum
+                </label>
             </div>
             <div class="form-div">
                 <p>Any Comments or Suggestions ?</p>
