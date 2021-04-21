@@ -32,3 +32,19 @@ header p{
     text-align: center;
    
 }
+
+button{
+    max-width: 500px;
+    border-color: orangered;
+    border-radius: 2rem;
+    border-width: .25rem;
+    margin: auto;
+    background-color: var(--button-color);
+    color: whitesmoke;
+    padding-left: 50%;
+    padding-right: 50%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    align-content:center;
+ 
+}
