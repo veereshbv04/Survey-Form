@@ -56,7 +56,12 @@
             <div>
                 <!-- Drop down -->
                 <label for="feature">What is your favorite feature of FreeCodeCamp ?</label>
-                <input id="feature" type="text" name="feaute">
+                <select id="dropdown">
+                    <option disabled selected value> Select from the below options</option>
+                    <option value="challenges">challenges</option>
+                    <option value ="projects">Projects</option>
+                    <option value="Structure of the Course">Structure of the Course</option>
+                </select>
             </div>
             <div>
                 <p>What Would you like to see improved ?</p>
@@ -78,7 +83,7 @@
             </div>
             <div>
                 <p>Any Comments or Suggestions ?</p>
-                <input id="comments" type="text" name="comments">
+                <textarea id="suggestions"></textarea>
             </div>
             <button id="submit">Submit</button>
         </form>
