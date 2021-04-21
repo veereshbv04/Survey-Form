@@ -20,22 +20,22 @@
         <form id="survey-form">
             <div class="form-div">
                 <label id="name-label" for="name">Name</label>
-                <input id="name" type="text" name="Name" placeholder="Enter your Name" required>
+                <input id="name" type="text" name="Name" class="form-control" placeholder="Enter your Name" required>
             </div>
 
             <div class="form-div">
                 <!--To take email the "type" of input tag should be "email" -->
                 <label id="email-label" for="email">Email</label>
-                <input id="email" type="email" name="Email" placeholder="Enter your mail-id" required>
+                <input id="email" type="email" name="Email" class="form-control" placeholder="Enter your mail-id" required>
             </div>
             <div class="form-div">
                 <label id="number-label" for="age">Age(Optional)</label>
-                <input id="number" type="number" name="Age(Optional)" placeholder="Enter your age"
+                <input id="number" type="number" name="Age(Optional)" class="form-control" placeholder="Enter your age"
                  min="10" max="150" >
             </div>
             <div class="form-div">
                 <label id="describe" for="describe-role">"Which option best decribes your current role" </label>
-                <input id="describe-role" type="text" name="Which option best decribes your current role" required>
+                <input id="describe-role" type="text" name="Which option best decribes your current role" class="form-control" required>
             </div>
             <div class="form-div">
 
@@ -56,7 +56,7 @@
             <div class="form-div">
                 <!-- Drop down -->
                 <label for="feature">What is your favorite feature of FreeCodeCamp ?</label>
-                <select id="dropdown" >
+                <select id="dropdown" class="form-control" >
                     <option disabled selected value> Select from the below options</option>
                     <option value="challenges">challenges</option>
                     <option value ="projects">Projects</option>
