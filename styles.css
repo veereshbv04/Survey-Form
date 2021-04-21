@@ -46,7 +46,20 @@ header p{
 
 .input-checkbox{
     display: inline-flex;
+    display: inline-block;
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
 }
+
+.input-radio{
+    display: inline-flex;
+    display: inline-block;
+    margin-right: 0.625rem;
+    min-height: 1.25rem;
+    min-width: 1.25rem;
+}
+
 
 label {
     display: flex;
