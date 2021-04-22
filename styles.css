@@ -16,16 +16,26 @@ body {
     line-height: 1.4;
 }
 
-/* container{
-    box-shadow: ;
-} */
+.container{
+   width: 100%;
+   margin: 3.125rem auto 0 auto;
+}
 
-/* @media (max-height = 800rem){
-    div{
-        font-size: x-small;
-        color: purple;
-    }
-} */
+@media (min-width: 768px){
+.container {
+    max-width: 720px;
+}
+}
+
+@media (min-width: 576px){
+.container {
+    max-width: 540px;
+}
+}
+
+div{
+    display: block;
+}
 
 form{
     max-width:500px;
