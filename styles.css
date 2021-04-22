@@ -40,14 +40,19 @@ div {
 
 
 form {
-    max-width: 600px;
+    max-width: 100%;
     margin: auto;
-    background-color: var(--form-color);
+    /* background-color: var(--form-color); */
     padding: 5rem;
     /* border-radius: 0.25rem; */
     border-top-right-radius: 5rem;
     border-bottom-left-radius: 5rem;
     box-shadow: 20px 20px 25px wheat;
+    color: rgb(245, 180, 0);
+    border-width: 0.5rem;
+    box-sizing: border-box;
+    border-style:solid;
+    border-color: whitesmoke;
 
 }
 
@@ -132,7 +137,7 @@ p {
     border-radius: 0.25rem;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     border-width: medium;
-    border-color: rgb(12, 9, 41);
+    border-color: rgb(245, 159, 0);
 
 }
 
@@ -144,7 +149,7 @@ p {
 }
 
 button {
-    max-width: 500px;
+    max-width: 50%;
     border-color: orangered;
     border-radius: 2rem;
     border-width: .25rem;
@@ -163,6 +168,6 @@ button {
 
 button:hover {
 
-    background-color: rgb(11, 5, 51);
+    background-color: orangered;
     color: whitesmoke;
 }
