@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
 
 
-:root{
-    --background-color:rgb(12, 9, 41);
-    --form-color:rgb(133, 173, 226);
-    --button-color:rgb(24, 10, 41);
+:root {
+    --background-color: rgb(12, 9, 41);
+    --form-color: rgb(133, 173, 226);
+    --button-color: rgb(24, 10, 41);
 }
 
 
@@ -16,61 +16,71 @@ body {
     line-height: 1.4;
 }
 
-.container{
-   width: 100%;
-   margin: 3.125rem auto 0 auto;
-}
-
-@media (min-width: 768px){
 .container {
-    max-width: 720px;
-}
-}
-
-@media (min-width: 576px){
-.container {
-    max-width: 540px;
-}
+    width: 100%;
+    margin: 3.125rem auto 0 auto;
 }
 
-div{
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+div {
     display: block;
 }
 
-form{
-    max-width:500px;
+
+form {
+    max-width: 600px;
     margin: auto;
     background-color: var(--form-color);
-    padding:6rem;
+    padding: 5rem;
     /* border-radius: 0.25rem; */
     border-top-right-radius: 5rem;
     border-bottom-left-radius: 5rem;
     box-shadow: 20px 20px 25px wheat;
+
 }
 
-header{
+@media (min-width: 480px) {
+    form {
+        padding: 2.5rem;
+    }
+}
+
+
+header {
     padding-top: 4rem;
     max-width: 500px;
     margin: auto;
     color: white;
     text-align: center;
 }
-header p{
+
+header p {
     font-style: italic;
     text-align: center;
-   
+
 }
 
-.form-div{
+.form-div {
     margin: 0 auto 0 auto;
     padding: 1.5rem;
-    
+
 }
 
 
 
 
-.input-checkbox{
+.input-checkbox {
     display: inline-flex;
     display: inline-block;
     margin-right: 0.625rem;
@@ -78,7 +88,7 @@ header p{
     min-width: 1.25rem;
 }
 
-.input-radio{
+.input-radio {
     display: inline-flex;
     display: inline-block;
     margin-right: 0.625rem;
@@ -89,22 +99,22 @@ header p{
 
 label {
     display: flex;
-    align-items:center;
+    align-items: center;
     /* font-size: 1.125rem; */
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
-    
+
 }
 
-p{
+p {
     font-size: 1.5rem
 }
 
-.inline{
+.inline {
     display: inline;
 }
 
-.form-control{
+.form-control {
     display: block;
     width: 100%;
     height: 2.375rem;
@@ -117,17 +127,17 @@ p{
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     border-width: medium;
     border-color: rgb(12, 9, 41);
-    
+
 }
 
-.input-textarea{
+.input-textarea {
     width: 100%;
     height: 8rem;
     border-top-right-radius: 1.8rem;
     border-bottom-left-radius: 1.8rem;
 }
 
-button{
+button {
     max-width: 500px;
     border-color: orangered;
     border-radius: 2rem;
@@ -139,13 +149,13 @@ button{
     padding-right: 50%;
     padding-top: 2.5%;
     padding-bottom: 2.5%;
-    align-content:center;
-    font-size:x-large;
-    
- 
+    align-content: center;
+    font-size: x-large;
+
+
 }
 
-button:hover{
+button:hover {
 
     background-color: rgb(11, 5, 51);
     color: whitesmoke;
