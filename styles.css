@@ -162,8 +162,17 @@ button {
     padding-bottom: 2.5%;
     align-content: center;
     font-size: x-large;
+    text-align: center;
 
+}
 
+.submit-button{
+    display: block;
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: rgb(233, 190, 150);
+    text-align: center;
 }
 
 button:hover {
