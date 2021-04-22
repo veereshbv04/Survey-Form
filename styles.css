@@ -75,11 +75,12 @@ header p {
     margin: 0 auto 1.25rem auto;
     padding: 0.25rem;
     width: 100%;
-
+}
     
-    *, *::before, *::after {
-        box-sizing: border-box;
-    }
+ 
+::before,*::after{
+    box-sizing: border-box;
+}
 
 
 
