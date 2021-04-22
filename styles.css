@@ -20,11 +20,12 @@ body {
     box-shadow: ;
 } */
 
-@media (max-height){
+/* @media (max-height = 800rem){
     div{
         font-size: x-small;
+        color: purple;
     }
-}
+} */
 
 form{
     max-width:500px;
